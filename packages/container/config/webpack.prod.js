@@ -21,6 +21,7 @@ const prodConfig = {
         // marketing: `marketing@${domain}/marketing/latest/remoteEntry.js`,
        // fix the domain issue
         marketing: `marketing@/marketing/latest/remoteEntry.js`,
+        auth: `auth@/auth/latest/remoteEntry.js`,
       },
       shared: packageJson.dependencies
     }),

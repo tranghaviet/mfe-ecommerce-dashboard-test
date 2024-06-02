@@ -13,11 +13,11 @@ const devConfig = {
   },
   devServer: {
     port: 8082,
-    historyApiFallback: true,
-    //or
-    // historyApiFallback: {
-    //   index: "index.html",
-    // },
+    // historyApiFallback: true,
+    // or
+    historyApiFallback: {
+      index: "/index.html",
+    },
   },
 
   plugins: [
