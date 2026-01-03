@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "start": "webpack serve --config config/webpack.dev.js",
+    "audit": "pnpm audit",
     "build": "webpack --config config/webpack.prod.js"
   },
   "dependencies": {
@@ -24,8 +25,8 @@
     "css-loader": "^5.0.0",
     "html-webpack-plugin": "^4.5.0",
     "style-loader": "^2.0.0",
-    "webpack": "^5.88.0",
-    "webpack-cli": "^4.1.0",
+    "webpack": "^5.104.1",
+    "webpack-cli": "^6.0.1",
     "webpack-dev-server": "^5.2.2",
     "webpack-merge": "^5.2.0"
   }
